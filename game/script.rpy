@@ -2968,6 +2968,8 @@ label start:
             hide image_alix_sourire
 
             show screen timeup_alix()
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_alix.mp3"
             show fond_rythm
@@ -2997,6 +2999,9 @@ label start:
             while True:
                 $ result = ui.interact()
             label suite_rythm_alix:
+            window show
+            $ quick_menu = True
+            hide screen show_game
             pause(1)
             scene fin_alix with fade
 
@@ -3007,6 +3012,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Alix, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
         if result_44 == "deux":
@@ -3021,7 +3028,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_rebecca_sourire
             show screen timeup_rebecca()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_rebecca.mp3"
             show fond_rythm
@@ -3051,6 +3059,9 @@ label start:
             while True:
                 $ result = ui.interact()
             label suite_rythm_rebecca:
+            window show
+            $ quick_menu = True
+            hide screen show_game
             pause(1)
             scene fin_rebecca with fade
             perso_joueur "Tu sais Rebecca... Je t'apprécie beaucoup."
@@ -3060,6 +3071,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Rebecca, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
         if result_44 == "trois":
@@ -3074,7 +3087,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_ema_sourire
             show screen timeup_ema()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_ema.mp3"
             show fond_rythm
@@ -3104,6 +3118,9 @@ label start:
             while True:
                 $ result = ui.interact()
             label suite_rythm_ema:
+            window show
+            $ quick_menu = True
+            hide screen show_game
             pause(1)
             scene fin_ema with fade
             perso_joueur "Tu sais Ema... Je t'apprécie beaucoup."
@@ -3113,6 +3130,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Ema, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3131,6 +3150,8 @@ label start:
             perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3150,8 +3171,9 @@ label start:
             perso_joueur "(Oh, elle me tient la main...)"
             perso_joueur "Dansons !"
             hide image_alix_sourire
-
             show screen timeup_alix()
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_alix.mp3"
             show fond_rythm
@@ -3180,6 +3202,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            window show
+            $ quick_menu = True
+            hide screen show_game
             pause(1)
             scene fin_alix
 
@@ -3190,6 +3215,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Alix, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
         if result_44 == "deux":
@@ -3204,7 +3231,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_rebecca_sourire
             show screen timeup_rebecca()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_rebecca.mp3"
             show fond_rythm
@@ -3233,6 +3261,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            window show
+            $ quick_menu = True
+            hide screen show_game
             pause(1)
             scene fin_rebecca
 
@@ -3243,6 +3274,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Rebecca, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
         if result_44 == "trois":
@@ -3257,7 +3290,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_ema_sourire
             show screen timeup_ema()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_ema.mp3"
             show fond_rythm
@@ -3286,7 +3320,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
-
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause(1)
             scene fin_ema with fade
             perso_joueur "Tu sais Ema... Je t'apprécie beaucoup."
@@ -3296,6 +3332,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Ema, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3315,7 +3353,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_alix_sourire
             show screen timeup_alix()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_alix.mp3"
             show fond_rythm
@@ -3344,6 +3383,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_alix with fade
             perso_joueur "Tu sais Alix... Je t'apprécie beaucoup."
@@ -3353,6 +3395,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Alix, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3368,7 +3412,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_ema_sourire
             show screen timeup_ema()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_ema.mp3"
             show fond_rythm
@@ -3397,6 +3442,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = False
             pause (1)
             scene fin_ema with fade
 
@@ -3407,6 +3455,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Ema, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3425,6 +3475,8 @@ label start:
             perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3443,7 +3495,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_alix_sourire
             show screen timeup_alix()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_alix.mp3"
             show fond_rythm
@@ -3472,6 +3525,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            window show
+            $ quick_menu = True
+            hide screen show_game
             pause (1)
             scene fin_alix with fade
 
@@ -3482,6 +3538,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Alix, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3497,7 +3555,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_ema_sourire
             show screen timeup_ema()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_ema.mp3"
             show fond_rythm
@@ -3526,6 +3585,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_ema with fade
 
@@ -3536,6 +3598,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Ema, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3554,7 +3618,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_alix_sourire
             show screen timeup_alix()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_alix.mp3"
             show fond_rythm
@@ -3583,6 +3648,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             scene fin_alix with fade
             pause (1)
             perso_joueur "Tu sais Alix... Je t'apprécie beaucoup."
@@ -3592,6 +3660,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Alix, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3607,7 +3677,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_rebecca_sourire
             show screen timeup_rebecca()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_rythm.mp3"
             show fond_rythm
@@ -3636,6 +3707,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_rebecca with fade
             perso_joueur "Tu sais Rebecca... Je t'apprécie beaucoup."
@@ -3645,6 +3719,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Rebecca, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3663,6 +3739,8 @@ label start:
             perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3681,7 +3759,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_alix_sourire
             show screen timeup_alix()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_alix.mp3"
             show fond_rythm
@@ -3710,6 +3789,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_alix with fade
             perso_joueur "Tu sais Alix... Je t'apprécie beaucoup."
@@ -3719,6 +3801,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Alix, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3734,7 +3818,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_rebecca_sourire
             show screen timeup_rebecca()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_rythm.mp3"
             show fond_rythm
@@ -3763,6 +3848,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause(1)
             scene fin_rebecca
 
@@ -3773,6 +3861,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Rebecca, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3788,7 +3878,8 @@ label start:
             perso_joueur "(Oh, elle me tient la main...)"
             hide image_rebecca_sourire
             show screen timeup_rebecca()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_rebecca.mp3"
             show fond_rythm
@@ -3817,6 +3908,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_rebecca
             perso_joueur "Tu sais Rebecca... Je t'apprécie beaucoup."
@@ -3825,6 +3919,8 @@ label start:
             perso_rebecca "Oui... plus qu'un ami"
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Rebecca, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3840,7 +3936,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_ema_sourire
             show screen timeup_ema()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_ema.mp3"
             show fond_rythm
@@ -3869,6 +3966,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_ema with fade
             perso_joueur "Tu sais Ema... Je t'apprécie beaucoup."
@@ -3878,6 +3978,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Ema, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3896,6 +3998,8 @@ label start:
             perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3914,7 +4018,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_rebecca_sourire
             show screen timeup_rebecca()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_rebecca.mp3"
             show fond_rythm
@@ -3943,6 +4048,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_rebecca with fade
             perso_joueur "Tu sais Rebecca... Je t'apprécie beaucoup."
@@ -3951,6 +4059,8 @@ label start:
             perso_rebecca "Oui... plus qu'un ami"
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Rebecca, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -3966,7 +4076,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_ema_sourire
             show screen timeup_ema()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_ema.mp3"
             show fond_rythm
@@ -3995,6 +4106,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_ema with fade
             perso_joueur "Tu sais Ema... Je t'apprécie beaucoup."
@@ -4004,6 +4118,8 @@ label start:
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Ema, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -4023,7 +4139,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_alix_sourire
             show screen timeup_alix()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_alix.mp3"
             show fond_rythm
@@ -4052,6 +4169,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_alix with fade
             perso_joueur "Tu sais Alix... Je t'apprécie beaucoup."
@@ -4060,6 +4180,8 @@ label start:
             perso_alix "Oh ouiiiii, comme ca je t'enverrai plein de messages avec plein de coeur! Et on pourra aller faire de l'escalade ensembles!"
             perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Alix, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
         if result_50 == "deux":
@@ -4077,6 +4199,8 @@ label start:
             perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -4092,7 +4216,8 @@ label start:
         perso_joueur "Dansons !"
         hide image_alix_sourire
         show screen timeup_alix()
-
+        window hide
+        $ quick_menu = False
         stop music
         play music "../audio/musique_alix.mp3"
         show fond_rythm
@@ -4121,6 +4246,9 @@ label start:
 
         while True:
             $ result = ui.interact()
+        hide screen show_game
+        window show
+        $ quick_menu = True
         pause (1)
         scene fin_alix with fade
         perso_joueur "Tu sais Alix... Je t'apprécie beaucoup."
@@ -4129,6 +4257,8 @@ label start:
         perso_alix "Oh ouiiiii, comme ca je t'enverrai plein de messages avec plein de coeur! Et on pourra aller faire de l'escalade ensembles!"
         perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Alix, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause ((30))
         return
 
@@ -4147,7 +4277,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_ema_sourire
             show screen timeup_ema()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_ema.mp3"
             show fond_rythm
@@ -4176,6 +4307,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_ema with fade
             perso_joueur "Tu sais Ema... Je t'apprécie beaucoup."
@@ -4186,6 +4320,8 @@ label start:
 
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -4204,6 +4340,8 @@ label start:
             perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -4219,7 +4357,8 @@ label start:
         perso_joueur "Dansons !"
         hide image_ema_sourire
         show screen timeup_ema()
-
+        window hide
+        $ quick_menu = False
         stop music
         play music "../audio/musique_ema.mp3"
         show fond_rythm
@@ -4248,6 +4387,9 @@ label start:
 
         while True:
             $ result = ui.interact()
+        hide screen show_game
+        window show
+        $ quick_menu = True
         pause (1)
         scene fin_ema with fade
         perso_joueur "Tu sais Ema... Je t'apprécie beaucoup."
@@ -4256,6 +4398,8 @@ label start:
         perso_ema "Bon c'est pas le tout... mais on m'attend pour le karaoké. Je vais leur montrer qui est la meilleure. Je te dédie cette chanson Anthony"
         perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Ema, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause ((30))
         return
 
@@ -4275,7 +4419,8 @@ label start:
             perso_joueur "Dansons !"
             hide image_rebecca_sourire
             show screen timeup_rebecca()
-
+            window hide
+            $ quick_menu = False
             stop music
             play music "../audio/musique_rebecca.mp3"
             show fond_rythm
@@ -4304,6 +4449,9 @@ label start:
 
             while True:
                 $ result = ui.interact()
+            hide screen show_game
+            window show
+            $ quick_menu = True
             pause (1)
             scene fin_rebecca with fade
             perso_joueur "Tu sais Rebecca... Je t'apprécie beaucoup."
@@ -4314,6 +4462,8 @@ label start:
 
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
         if result_52 == "deux":
@@ -4331,6 +4481,8 @@ label start:
             perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
             scene credits with fade
+            window hide
+            $ quick_menu = False
             pause ((30))
             return
 
@@ -4346,6 +4498,8 @@ label start:
         perso_joueur "Dansons !"
         hide image_rebecca_sourire
         show screen timeup_rebecca()
+        window hide
+        $ quick_menu = False
         stop music
         play music "../audio/musique_rebecca.mp3"
         show fond_rythm
@@ -4373,6 +4527,9 @@ label start:
             renpy.show("_", what=manager, zorder = 1)
         while True:
             $ result = ui.interact()
+        window show
+        $ quick_menu = False
+        hide screen show_game
         pause (1)
         scene fin_rebecca with fade
         perso_joueur "Tu sais Rebecca... Je t'apprécie beaucoup."
@@ -4382,6 +4539,8 @@ label start:
         perso_joueur "(Je suis arrivé dans cette colonie de vacances en pensant que je m'ennuierai. Mais finalement, c'etait marrant.. Avec le moniteur, les filles et surtout Rebecca, j'ai passé les meilleures vacances... Je reviendrai surement l'année prochaine.)"
 
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause ((30))
         return
 
@@ -4410,6 +4569,8 @@ label start:
         perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
         perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4426,6 +4587,8 @@ label start:
         show image_theo_muscle_inverse
         perso_theo "BOUM !!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4454,6 +4617,8 @@ label start:
         perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
         perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4470,6 +4635,8 @@ label start:
         show image_theo_muscle_inverse
         perso_theo "BOUM !!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4498,6 +4665,8 @@ label start:
         perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
         perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4514,6 +4683,8 @@ label start:
         show image_theo_muscle_inverse
         perso_theo "BOUM !!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4542,6 +4713,8 @@ label start:
         perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
         perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4558,6 +4731,8 @@ label start:
         show image_theo_muscle_inverse
         perso_theo "BOUM !!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4586,6 +4761,8 @@ label start:
         perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
         perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4602,6 +4779,8 @@ label start:
         show image_theo_muscle_inverse
         perso_theo "BOUM !!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4630,6 +4809,8 @@ label start:
         perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
         perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4646,6 +4827,56 @@ label start:
         show image_theo_muscle_inverse
         perso_theo "BOUM !!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
+        pause (30)
+        return
+
+    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_ema > 20 and affinite_rebecca < 80 and affinite_rebecca > 20 and nombre_recup >= 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene fond_boom_fete
+        show image_theo_normal
+        perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+        hide image_theo_normal
+        show image_theo_blush
+        perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+        perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+        perso_theo "Et c'est pour cela..."
+        hide image_theo_blush
+        scene fin_theo with fade
+        perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+        perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+        scene credits with fade
+        window hide
+        $ quick_menu = False
+        pause (30)
+        return
+
+    if (affinite_ema < 80 and affinite_ema > 20 and affinite_rebecca < 80 and affinite_rebecca > 20 and affinite_alix < 80 and affinite_alix > 20 and nombre_recup < 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 
@@ -4672,6 +4903,8 @@ label start:
         play music "../audio/musique_bad_end.mp3" fadein 0.1
         perso_meta "CRÈVE !!!"
         scene credits with fade
+        window hide
+        $ quick_menu = False
         pause (30)
         return
 return

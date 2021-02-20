@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 1099: u'Hide' is not a keyword argument or valid child for the screen statement.
+    Hide("window")
+        ^
+
+File "game/script.rpy", line 1102: u'Hide' is not a keyword argument or valid child for the screen statement.
+    Hide("window")
+        ^
+
+File "game/script.rpy", line 1105: u'Hide' is not a keyword argument or valid child for the screen statement.
+    Hide("window")
+        ^
+
+Ren'Py Version: Ren'Py 7.4.2.1292
+Sat Feb 20 21:23:55 2021
