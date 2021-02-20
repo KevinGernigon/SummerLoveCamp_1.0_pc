@@ -2439,7 +2439,7 @@ label start:
                 scene fond_noir
                 perso_joueur "(Je passe quelques temps avec Rebecca avant d'aller manger)"
             if result_36 == "cinq":
-                hide image_rebecca_trise
+                hide image_rebecca_triste
                 show image_rebecca_normal
                 perso_rebecca "Je suis comme ca, je fais avec..."
                 perso_rebecca "J'ai toujours été comme ca depuis que j'ai déménagé. J'ai perdu tout mes amis et maintenant je n'ose plus adresser la parole"
@@ -3649,22 +3649,22 @@ label start:
             return
 
         if result_46 == "trois":
-                scene fond_boom_fete
-                show image_theo_normal
-                perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
-                hide image_theo_normal
-                show image_theo_blush
-                perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
-                perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
-                perso_theo "Et c'est pour cela..."
-                hide image_theo_blush
-                scene fin_theo with fade
-                perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
-                perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+            scene fond_boom_fete
+            show image_theo_normal
+            perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+            hide image_theo_normal
+            show image_theo_blush
+            perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+            perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+            perso_theo "Et c'est pour cela..."
+            hide image_theo_blush
+            scene fin_theo with fade
+            perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+            perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
-                scene credits with fade
-                pause ((30))
-                return
+            scene credits with fade
+            pause ((30))
+            return
 
     if (affinite_alix > 80 and affinite_ema < 80 and affinite_rebecca > 80 and nombre_recup < 10):
         $ perso_joueur ("(Bon maintenant que je me suis préparer, je vais devoir choisir la personne qui va m'accompagner.)", interact = False)
@@ -3882,22 +3882,22 @@ label start:
             return
 
         if result_47 == "trois":
-                scene fond_boom_fete
-                show image_theo_normal
-                perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
-                hide image_theo_normal
-                show image_theo_blush
-                perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
-                perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
-                perso_theo "Et c'est pour cela..."
-                hide image_theo_blush
-                scene fin_theo with fade
-                perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
-                perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+            scene fond_boom_fete
+            show image_theo_normal
+            perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+            hide image_theo_normal
+            show image_theo_blush
+            perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+            perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+            perso_theo "Et c'est pour cela..."
+            hide image_theo_blush
+            scene fin_theo with fade
+            perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+            perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
-                scene credits with fade
-                pause ((30))
-                return
+            scene credits with fade
+            pause ((30))
+            return
 
     if (affinite_alix < 80 and affinite_ema > 80 and affinite_rebecca > 80 and nombre_recup < 10):
         $ perso_joueur ("(Bon maintenant que je me suis préparer, je vais devoir choisir la personne qui va m'accompagner.)", interact = False)
@@ -4063,22 +4063,22 @@ label start:
             pause ((30))
             return
         if result_50 == "deux":
-                scene fond_boom_fete
-                show image_theo_normal
-                perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
-                hide image_theo_normal
-                show image_theo_blush
-                perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
-                perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
-                perso_theo "Et c'est pour cela..."
-                hide image_theo_blush
-                scene fin_theo with fade
-                perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
-                perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+            scene fond_boom_fete
+            show image_theo_normal
+            perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+            hide image_theo_normal
+            show image_theo_blush
+            perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+            perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+            perso_theo "Et c'est pour cela..."
+            hide image_theo_blush
+            scene fin_theo with fade
+            perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+            perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
-                scene credits with fade
-                pause ((30))
-                return
+            scene credits with fade
+            pause ((30))
+            return
 
     if (affinite_alix > 80 and affinite_ema < 80 and affinite_rebecca < 80 and nombre_recup < 10):
         show image_alix_sourire
@@ -4190,22 +4190,22 @@ label start:
             return
 
         if result_51 == "deux":
-                scene fond_boom_fete
-                show image_theo_normal
-                perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
-                hide image_theo_normal
-                show image_theo_blush
-                perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
-                perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
-                perso_theo "Et c'est pour cela..."
-                hide image_theo_blush
-                scene fin_theo with fade
-                perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
-                perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+            scene fond_boom_fete
+            show image_theo_normal
+            perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+            hide image_theo_normal
+            show image_theo_blush
+            perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+            perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+            perso_theo "Et c'est pour cela..."
+            hide image_theo_blush
+            scene fin_theo with fade
+            perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+            perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
-                scene credits with fade
-                pause ((30))
-                return
+            scene credits with fade
+            pause ((30))
+            return
 
     if (affinite_alix < 80 and affinite_ema > 80 and affinite_rebecca < 80 and nombre_recup < 10):
         show image_ema_sourire
@@ -4385,7 +4385,7 @@ label start:
         pause ((30))
         return
 
-    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_ema > 20 and affinite_rebecca < 80 and affinite_rebecca > 20 and nombre_recup >= 10):
+    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_rebecca < 80 and nombre_recup >= 10):
         perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
         perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
         show image_theo_sourire
@@ -4413,7 +4413,227 @@ label start:
         pause (30)
         return
 
-    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_ema > 20 and affinite_rebecca < 80 and affinite_rebecca > 20 and nombre_recup < 10):
+    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_rebecca < 80 and nombre_recup < 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_ema < 80 and affinite_ema > 20 and affinite_alix < 80 and affinite_rebecca < 80 and nombre_recup >= 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene fond_boom_fete
+        show image_theo_normal
+        perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+        hide image_theo_normal
+        show image_theo_blush
+        perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+        perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+        perso_theo "Et c'est pour cela..."
+        hide image_theo_blush
+        scene fin_theo with fade
+        perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+        perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_ema < 80 and affinite_ema > 20 and affinite_alix < 80 and affinite_rebecca < 80 and nombre_recup < 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_rebecca < 80 and affinite_rebecca > 20 and affinite_ema < 80 and affinite_alix < 80 and nombre_recup >= 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene fond_boom_fete
+        show image_theo_normal
+        perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+        hide image_theo_normal
+        show image_theo_blush
+        perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+        perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+        perso_theo "Et c'est pour cela..."
+        hide image_theo_blush
+        scene fin_theo with fade
+        perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+        perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_rebecca < 80 and affinite_rebecca > 20 and affinite_ema < 80 and affinite_alix < 80 and nombre_recup < 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_ema > 20 and affinite_rebecca < 80 and nombre_recup >= 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene fond_boom_fete
+        show image_theo_normal
+        perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+        hide image_theo_normal
+        show image_theo_blush
+        perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+        perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+        perso_theo "Et c'est pour cela..."
+        hide image_theo_blush
+        scene fin_theo with fade
+        perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+        perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_ema > 20 and affinite_rebecca < 80 and nombre_recup < 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_rebecca < 80 and affinite_rebecca > 20 and nombre_recup >= 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene fond_boom_fete
+        show image_theo_normal
+        perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+        hide image_theo_normal
+        show image_theo_blush
+        perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+        perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+        perso_theo "Et c'est pour cela..."
+        hide image_theo_blush
+        scene fin_theo with fade
+        perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+        perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_rebecca < 80 and affinite_rebecca > 20 and nombre_recup < 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_alix < 80 and affinite_alix > 20 and affinite_ema < 80 and affinite_ema > 20 and affinite_rebecca < 80 and nombre_recup >= 10):
+        perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
+        perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
+        show image_theo_sourire
+        perso_theo "Bah alors, tu n'oses pas demander à une rainette de danser avec toi ?"
+        perso_theo "C'est pas grave tu n'as qu'à venir avec moi et mes deux copains..."
+        hide image_theo_sourire
+        show image_theo_muscle
+        perso_theo "BANG !!"
+        hide image_theo_muscle
+        show image_theo_muscle_inverse
+        perso_theo "BOUM !!"
+        scene fond_boom_fete
+        show image_theo_normal
+        perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+        hide image_theo_normal
+        show image_theo_blush
+        perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+        perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+        perso_theo "Et c'est pour cela..."
+        hide image_theo_blush
+        scene fin_theo with fade
+        perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+        perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+        scene credits with fade
+        pause (30)
+        return
+
+    if (affinite_ema < 80 and affinite_ema > 20 and affinite_rebecca < 80 and affinite_rebecca > 20 and affinite_alix < 80 and nombre_recup < 10):
         perso_joueur "(Bon... J'ai personne avec qui danser avec moi... Comment j'ai fait pour me retrouver seul comme ça ?)"
         perso_joueur "(Peut-être que je n'ai pas été assez sympa avec les filles ces trois derniers jours ?)"
         show image_theo_sourire
