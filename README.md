@@ -3,15 +3,15 @@
 School project in february of 2021 at ETPA & IFFDEC in Rennes, France 
 
 Illustrators :
-Joseph Deborah
+Joseph Deborah |
 Bouvier Arthur
 
 Narrative Design :
-Bauchet Tristan
-Jovelin Thibault
+Bauchet Tristan |
+Jovelin Thibault |
 Brillet Killian
 
 Programming :
-Gernigon Kevin
+Gernigon Kevin |
 Brillet Killian
 
