@@ -4317,22 +4317,22 @@ label start:
             pause ((30))
             return
         if result_52 == "deux":
-                scene fond_boom_fete
-                show image_theo_normal
-                perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
-                hide image_theo_normal
-                show image_theo_blush
-                perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
-                perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
-                perso_theo "Et c'est pour cela..."
-                hide image_theo_blush
-                scene fin_theo with fade
-                perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
-                perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
+            scene fond_boom_fete
+            show image_theo_normal
+            perso_joueur "Monsieur, j'ai trouvé des haltères durant le séjour! J'ai pensé que ca pourrait vous interesser..."
+            hide image_theo_normal
+            show image_theo_blush
+            perso_theo "OOooohhh ! Merci Anthony, c'est trop mignon."
+            perso_theo "Tu as tout de suite pensé à moi quand tu as trouvé ses haltères. C'est une belle preuve d'amour pour ton moniteur favori..."
+            perso_theo "Et c'est pour cela..."
+            hide image_theo_blush
+            scene fin_theo with fade
+            perso_theo "QUE TU VAS RESTER AVEC MOI DANS LA COLO TOUT L'ÉTÉ POUR M'AIDER... VIENS LA QUE JE T'EMBRASSE"
+            perso_joueur "AAAaaaaaah, je sais que vous m'aimez bien, mais quand même!"
 
-                scene credits with fade
-                pause ((30))
-                return
+            scene credits with fade
+            pause ((30))
+            return
 
     if (affinite_alix < 80 and affinite_ema < 80 and affinite_rebecca > 80 and nombre_recup < 10):
         show image_rebecca_sourire
