@@ -4893,15 +4893,29 @@ label start:
 
     if (affinite_alix < 20 and affinite_ema < 20 and affinite_rebecca < 20):
         scene fond_foret_nuit
-        show image_rebecca_normal at right
-        show image_ema_normal
-        show image_alix_normal at left
-        perso_alix "Hey ! On voulait te parler avec les deux autres filles, mais on s'entend pas avec cette musique, viens on va un peu plus loin, au calme."
-        perso_joueur "(Je commence à suivre les trois filles, je me demande bien ce qu'elles veulent me dire.)"
+        perso_joueur "(Les filles m'ont donné rendez vous dans la forét... Ça ne me dit rien qui vaille...)"
+        perso_joueur "(J'ai peut être trop méchant avec elles pendant ces derniers jours... Je devrais peut-être essayer de me faire pardonner)"
+        perso_joueur "(Je m'enfonce petit à petit dans la forèt. Il y fait nuit noire, je vois meme pas le bout de mes pieds)"
+        perso_joueur "(Tout d'un coup, j'entends comme un bruit de feuille derriere moi... Qu'est ce qui se passe dans cette forêt?)"
+        perso_joueur "Qui... Qui va là? Y'a quelqu.."
+        scene fond_noir
+        perso_joueur "..."
+        perso_joueur "..."
+        perso_joueur "(Aie aie aie, ma tète... j'ai mal... Qu'est ce qu'il s'est passé?)"
+        perso_joueur "(J'essaye d'ouvrir les yeux, tout ça pour avoir une vision d'horreur devant moi...)"
         scene bad_end with fade
         stop music
         play music "../audio/musique_bad_end.mp3" fadein 0.1
-        perso_meta "CRÈVE !!!"
+        perso_rebecca "Aaaaaa, encore quelqu'un qui ne me comprends pas... C'est si dommage. Encore un que je vais devoir sacrifier..."
+        perso_rebecca "Qu'est ce que je vais faire de toi... Peut etre un pieu dans le dos... Ou encore un pieu dans le coeur serait le plus direct..."
+        perso_ema "Vous inquietez pas les filles... Je m'en occupe"
+        perso_ema "On se connait bien tout les deux n'est ce pas NOM... Et ma batte favorite, tu la connais bien aussi je crois..."
+        perso_ema "C'est celle qui m'a fait exclure de mon lycée... Elle peut peut etre encore servir finalement..."
+        perso_alix "Pas question ! Laissez le moi ! On va aller jouer ensembles tous les deux..."
+        perso_alix "On va s'amuser à aller grimper aux arbres, à lui passer cette corde autour de son cou..."
+        perso_alix "ET À LE LACHER DU HAUT DE LA BRANCHE HAHAHAHAHAAAAA"
+        scene fond_noir
+        perso_joueur "Sortez moi de la s'il vous pl..."
         scene credits with fade
         window hide
         $ quick_menu = False
