@@ -4894,7 +4894,7 @@ label start:
     if (affinite_alix < 20 and affinite_ema < 20 and affinite_rebecca < 20):
         scene fond_foret_nuit
         perso_joueur "(Les filles m'ont donné rendez vous dans la forét... Ça ne me dit rien qui vaille...)"
-        perso_joueur "(J'ai peut être trop méchant avec elles pendant ces derniers jours... Je devrais peut-être essayer de me faire pardonner)"
+        perso_joueur "(J'ai peut-être été trop méchant avec elles pendant ces derniers jours... Je devrais peut-être essayer de me faire pardonner)"
         perso_joueur "(Je m'enfonce petit à petit dans la forèt. Il y fait nuit noire, je vois meme pas le bout de mes pieds)"
         perso_joueur "(Tout d'un coup, j'entends comme un bruit de feuille derriere moi... Qu'est ce qui se passe dans cette forêt?)"
         perso_joueur "Qui... Qui va là? Y'a quelqu.."
@@ -4909,7 +4909,7 @@ label start:
         perso_rebecca "Aaaaaa, encore quelqu'un qui ne me comprends pas... C'est si dommage. Encore un que je vais devoir sacrifier..."
         perso_rebecca "Qu'est ce que je vais faire de toi... Peut etre un pieu dans le dos... Ou encore un pieu dans le coeur serait le plus direct..."
         perso_ema "Vous inquietez pas les filles... Je m'en occupe"
-        perso_ema "On se connait bien tout les deux n'est ce pas NOM... Et ma batte favorite, tu la connais bien aussi je crois..."
+        perso_ema "On se connait bien tout les deux n'est ce pas Anthony... Et ma batte favorite, tu la connais bien aussi je crois..."
         perso_ema "C'est celle qui m'a fait exclure de mon lycée... Elle peut peut etre encore servir finalement..."
         perso_alix "Pas question ! Laissez le moi ! On va aller jouer ensembles tous les deux..."
         perso_alix "On va s'amuser à aller grimper aux arbres, à lui passer cette corde autour de son cou..."
